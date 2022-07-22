@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/scss/main.scss">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <title>Leratoschool</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/svg/thuya.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Thuya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Продукция</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Обучение</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Где купить</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Дистрибуция</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR END-->
+
+    <!--OUR BRANDS START-->
+    <div class="card mb-3" style="padding-top:94px;background:black;">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title" style="color:white;">Премиум продукция</h2>
+              <h3 class="card-text" style="color:white;">Для ресниц и бровей</h3>
+              <button id="button_arrow" class="button">
+                <svg class="icon-arrow-right" width="110" height="9" viewBox="0 0 62 9" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <line y1="-0.5" x2="30.5114" y2="-0.5" transform="matrix(1 0 0 -1 0 4)" stroke="white" />
+                  <path
+                    d="M61.3663 4.14645C61.5616 4.34171 61.5616 4.65829 61.3663 4.85355L58.1843 8.03553C57.9891 8.2308 57.6725 8.2308 57.4772 8.03553C57.282 7.84027 57.282 7.52369 57.4772 7.32843L60.3057 4.5L57.4772 1.67157C57.282 1.47631 57.282 1.15973 57.4772 0.964466C57.6725 0.769204 57.9891 0.769204 58.1843 0.964466L61.3663 4.14645ZM30.5013 4H61.0128V5H30.5013V4Z"
+                    fill="white" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="images/pictures/Rectangle.png" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center text-white">О нас</h2>
+
+      <div class="card mb-3" style="padding-top:94px;background:black;">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-md-6 position-relative">
+              <img src="images/pictures/Rectangle1.png" class="position-relative img-fluid" alt="..."
+                style="z-index: 1;">
+              <img src="images/pictures/Ellipse.png" class="position-absolute img-fluid" alt="..."
+                style="left:5%; top:-8%;">
+              <div>
+                <span class="about_us"></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title text-white">Это продукт, которому Вы можете доверять на 100% по следующим
+                  причинам:</h5>
+                <ul>
+                  <li class="text-white">Состав средств полностью гипоаллергенный.</li>
+                  <li class="text-white">Продукция разрабатывается в собственной лаборатории компании в Барселоне.</li>
+                  <li class="text-white">Вся продукция проходит постоянные дерматологические, офтальмологические тесты и
+                    является сертифицированной.</li>
+                  <li class="text-white">Продукция соответствует высокому контролю качества в согласии с европейскими
+                    косметическими нормами (Genetest).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-7">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!--OUR BRANDS END-->
+
+    <!--SLIDER CARDS START-->
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  
+       
+    <!--SLIDER CARDS END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  <script type="module" src="./assets/js/main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
