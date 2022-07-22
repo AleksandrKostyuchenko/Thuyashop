@@ -1,0 +1,21 @@
+$card-border-color:none;
+$form-check-input-checked-color:red;
+$form-check-input-border-radius:1.25em;
+$form-check-input-focus-box-shadow:0 0 0 0.25rem #fff;
+$form-check-input-checked-bg-color:red;
+$form-check-input-checked-bg-image:none;
+$form-check-input-focus-border:$form-check-input-focus-box-shadow;
+$input-border-radius:40px;
+$card-border-radius:none;
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer,
+  7: $spacer * 6,
+  8: $spacer * 9
+);
