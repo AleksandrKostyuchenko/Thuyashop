@@ -6,6 +6,8 @@ $form-check-input-focus-box-shadow:0 0 0 0.25rem #fff;
 $form-check-input-checked-bg-color:red;
 $form-check-input-checked-bg-image:none;
 $form-check-input-focus-border:$form-check-input-focus-box-shadow;
+$btn-padding-x:2.75rem;
+$btn-link-color:#484848;
 $input-border-radius:40px;
 $card-border-radius:none;
 $spacer: 1rem;
@@ -20,4 +22,11 @@ $spacers: (
   7: $spacer * 6,
   8: $spacer * 9
 );
+$accordion-border-width:none;
+//$accordion-button-color:#AB0013;
+$accordion-button-active-color:#AB0013;
+//$accordion-color:#AB0013;
+$accordion-button-active-bg:none;
+$accordion-button-focus-box-shadow:none;
+$accordion-button-padding-x:none;
 

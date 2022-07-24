@@ -14,6 +14,11 @@
    background-color: #AB0013;
 }
 
+.nav_decoration:hover{
+    border-bottom:1px solid #AB0013;
+
+}
+
 .button:hover{
    transition-duration: 1s;
    width: 189px;
@@ -132,4 +137,19 @@
 
   
 /*====SLIDER CARDS END====*/
+
+/*====PAGE 2 HTML====*/
+.btn_product{
+    width: 164px;
+    height: 35px;
+    border: 1px solid #AB0013;
+    color: #484848;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn_product:hover{
+    box-shadow: 0.5 0.5 1 1 #AB0013;
+    color: #484848;
+}
 
