@@ -6,49 +6,95 @@
     box-sizing: content-box;
 }
 /*====BASE END====*/
-.button{
-   width: 60px;
-   height: 60px;
-   border-radius: 50px;
-   border:none;
-   background-color: #AB0013;
+
+
+.nav_decoration{
+    border-bottom: 1px solid transparent;
 }
 
 .nav_decoration:hover{
     border-bottom:1px solid #AB0013;
-
 }
 
-.button:hover{
-   transition-duration: 1s;
-   width: 189px;
-   height: 60px;
-}
 
-.button::after{
-    content: 'продолжить';
-    color: white;
+.button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid #AB0013;
+    background-color: #AB0013;
+    color: #fff;
+    transition: width 0.7s;
+  }
+  .button:hover {
+    width: 180px;
+    transition: width 0.7s;
+  }
+  
+  .button .icon-arrow-right {
+    opacity: 1;
+    transition: opacity 0.5s
+  }
+  
+  .button:hover .icon-arrow-right {
     opacity: 0;
-    transition: 1s opacity .5s ease-in-out;
-}
-
-.button:hover::after{
-    opacity: 1;
-}
-
-.icon-arrow-right {
-    opacity: 1;
+    transition: opacity 0.5s
+  }
+  
+  .button .button-text {
+    opacity: 0;  
     position: absolute;
-    transition: opacity .3s ease-in-out;
-}
+    transition: opacity 0.1s;
+    width: 100%;
+    left: 10%;
+   }
+  
+  .button:hover .button-text {
+    opacity: 1;
+    transition: .5s opacity 0.2s;
+  }
 
-.button:hover .icon-arrow-right {
-    opacity: 0;
-}
+  .button_swipper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #AB0013;
+    background-color: #AB0013;
+    color: rgb(255, 254, 254);
+    transition: width 0.7s;
+  }
+  .button_swipper:hover {
+    width: 180px;
+    transition: width 0.7s;
+  }
+  
+  .button_swipper .arrow_swipper {
+    opacity: 1;
+    transition: opacity 0.5s
+  }
+  
+  .button_swipper:hover .arrow_swipper {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .button_swipper .button-text {
+    opacity: 1;  
+    transition: opacity 0.1s;
+    width: 100%;
+    left: -44%;
+    top: 30%;
+    color: #484848;
+   }
+  
+  .button_swipper:hover .button-text {
+    opacity: 1;
+    transition: .5s opacity 0.2s;
+    color: #fff;
+  }
 
-.button::after{
-    border-width: 10px solid white;
-}
+
+
 
 /*====ARROW START====*/
 .arrow-7 {
@@ -149,7 +195,7 @@
 }
 
 .btn_product:hover{
-    box-shadow: 0.5 0.5 1 1 #AB0013;
-    color: #484848;
+    background-color:#AB0013 ;
+    color: #ffffff;
 }
 

@@ -2,7 +2,7 @@
   "name": "thuyashop.ru",
   "version": "1.0.0",
   "description": "",
-  "source": "./src/product_page3.html",
+  "source": "./src/product_page.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build"
