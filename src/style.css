@@ -199,3 +199,22 @@
     color: #ffffff;
 }
 
+/*====PAGE 2 HTML END====*/
+
+/*=====THUYA START====*/
+.circle{
+  width:99px;
+  height:99px;
+  border: 1px solid #AB0013;
+  border-radius:50%;
+  background-color:#AB0013;
+}
+
+
+.span_position{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:59px;
+  color:rgb(255, 255, 255);
+}
